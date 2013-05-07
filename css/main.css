@@ -1,0 +1,258 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font: 16px/26px 'AvenirNextLTW01-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white; /*#fffff0; /* ivory */ 
+}
+
+#venue.container {
+    /*background: white;    d9e4e7 is light teal */
+}
+
+.hero-unit h1 {
+    font-size: 3em;
+    font-family: 'Always W01 Regular';
+    text-align: center;
+    color: #fffff0; /* ivory */ 
+    text-shadow: -2.5px -2.5px 0px #5a828a;
+    line-height: 1.5em;
+} 
+
+.hero-unit h1 .heart {
+    display: block;
+    margin: 0.25em 0 0 0.5em;
+} 
+
+.hero-unit .sub-heading {
+    text-align: center;
+    font-size: 1.62em;
+    margin-top: 1em;
+    color: #fffff0; /* ivory */ 
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #5a828a;
+}
+
+.hero-unit {
+    padding: 60px 20px;
+}
+
+h1, h2, h3 {
+    line-height: 1.62em;
+}
+
+h2, h3 {
+	font-weight: normal;
+}
+
+h2 {
+    margin-top: 1.25em;
+}
+
+h3 {
+    margin: 0 0 .25em 0;
+}
+
+.tandem-container {
+    margin: 2em 0;
+}
+
+#cast h3 {
+    margin: 0 0 .75em 0;
+}
+
+.map-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#map_church {
+    min-height: 300px;
+}
+
+#location {
+    min-height: 300px;
+    margin-top: 3em;
+}
+
+#location .when {
+    color: white;
+    text-shadow: 0px 0px 3px #9c5503;
+    background-color: #F08204; /* orange */
+    background-color: rgba(240, 130, 4, .75); /* orange 50% opacity */
+    padding: 10px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.person h4 {
+    font-family: 'Always W01 Regular';
+    font-size: 2em;
+    color: #A6C0C5; /* teal */
+    padding: 1em 0;
+    text-align: center;
+}
+
+.person p {
+    padding-bottom: 20px;
+}
+
+.person h3 sup {
+    /*text-decoration: underline;*/
+}
+
+.portrait-container {
+    width: 300px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.portrait {
+    max-width: 100%;
+    height: auto;
+}
+
+dl {
+    padding: 0 5%;
+}
+
+@media \0screen {
+  .portrait { 
+    width: auto; /* for ie 8 */
+  }
+}
+
+#rsvp a {
+    text-decoration: none;
+    font-size: 3em;
+    color: #fff; /* white */
+    background-color: #A6C0C5; /* teal */
+    border-radius: 5px;
+    padding: .5em 1.5em;
+}
+
+#contact table tr td {
+    text-align: center;
+} 
+
+footer #agile-web {
+    text-align: center;
+}
+
+footer #agile-web .agile-web-logo {
+    display: inline-block;
+    font-size: 4em;
+}
+
+footer #agile-web .agile-web-logo a {
+    text-decoration: none;
+}
+
+footer #agile-web .copyright {
+    height: 4.6em;
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: .5em;
+}
+
+@media only screen and (max-width: 400px) {
+    
+    /* ===============
+        Mobiles Portrait
+       =============== */
+
+    .hero-unit h1 {
+        font-size: 2.2em;
+        line-height: 1.5em;
+    } 
+
+    #rsvp a {
+        font-size: 2.4em;
+        padding: 0.3em 1em;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* ===============
+        Medium Width
+       =============== */
+
+    .hero-unit h1 .heart {
+        display: inline-block;
+    } 
+
+    .map-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #map_church {
+        width: 45%;
+        margin: 0 2.5%;
+    }
+
+    #location {
+        margin-top: 0;
+    }
+
+    #cast h3 {
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .person {
+        text-align: center;
+        border: 1px solid #A6C0C5;
+        /*
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: #fffff0;
+        -webkit-box-shadow: 1px 1px 5px #D9D9CA;
+        -moz-box-shadow: 1px 1px 5px #D9D9CA;
+        box-shadow: inset 1px 1px 5px #D9D9CA;
+        */
+    }
+
+    .person.span6 {
+        width: 350px;
+    }
+
+    .person h3 {
+        background-color: #A6C0C5; /* teal */
+        color: white;
+    }
+
+    .person p {
+        padding: 0 30px 20px 30px;
+    }
+
+}
+
+@media only screen and (min-width: 980px) {
+
+    /* ===============
+       Responsive menu 
+       =============== */
+    .person.span6 {
+        width: 458px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /* ===============
+           desktop 
+       =============== */
+    .person.span6 {
+        width: 568px;
+    }
+
+}
