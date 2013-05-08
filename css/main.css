@@ -183,6 +183,16 @@ footer #agile-web .copyright {
         Medium Width
        =============== */
 
+    .hero-unit h1 {
+        font-size: 3em;
+        line-height: 1.5em;
+    } 
+
+    .hero-unit .sub-heading {
+        font-size: 1.85em;
+        line-height: 1em;
+    }
+
     .hero-unit h1 .heart {
         display: inline-block;
     } 
@@ -240,6 +250,16 @@ footer #agile-web .copyright {
     /* ===============
        Responsive menu 
        =============== */
+    .hero-unit h1 {
+        font-size: 4em;
+        line-height: 2em;
+    } 
+
+    .hero-unit .sub-heading {
+        font-size: 2.5em;
+        line-height: 1.5em;
+    }
+
     .person.span6 {
         width: 458px;
     }
@@ -251,6 +271,16 @@ footer #agile-web .copyright {
     /* ===============
            desktop 
        =============== */
+    .hero-unit h1 {
+        font-size: 5em;
+        line-height: 2em;
+    } 
+
+    .hero-unit .sub-heading {
+        font-size: 3.1em;
+        line-height: 2em;
+    }
+
     .person.span6 {
         width: 568px;
     }
