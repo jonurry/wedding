@@ -1,0 +1,27 @@
+# Required
+# --------
+
+scheme: s3
+access_key_id: AKIAJVD2IPC7YU5JDL7Q
+secret_access_key: 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
+bucket_name: wedding.urry.me
+
+# Optional
+# --------
+
+# Remote path
+#path: path/to/deployment
+
+# Remote file name in which the current revision is stored
+revision_file: .revision
+
+# These files (from Git) will not be uploaded during a deploy
+exclude:
+    - .gitignore
+    - dandelion.yml
+
+# These files (from your working directory) will be uploaded on every deploy
+#additional:
+#    - public/css/print.css
+#    - public/css/screen.css
+#    - public/js/main.js

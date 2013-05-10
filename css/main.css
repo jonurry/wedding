@@ -4,13 +4,44 @@
    Author's custom styles
    ========================================================================== */
 
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin: 0;
+}   
+
 body {
     font: 16px/26px 'AvenirNextLTW01-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: white; /*#fffff0; /* ivory */ 
 }
 
-#venue.container {
-    /*background: white;    d9e4e7 is light teal */
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#hero {
+    background-image: url('../img/teal.png');
+    background-color: #A6C0C5; /* teal */
+}
+
+#venue, #travel, #cast, #travel, #hotels, #gifts, #rsvp {
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+
+#venue, #travel {
+    background-image: url('../img/ivory.png');
+    background-color: #fffff0; /* ivory */ 
+}
+
+#hotels {
+    background-image: url('../img/silver.png');
+    background-color: silver; /* #E5E7E8; /* light silver sand */ 
+    /* #c0c0c0; /* silver */
+}
+
+#rsvp {
+    background-image: url('../img/teal.png');
+    background-color: #A6C0C5; /* teal */ /* #4b3621; /* cafe noir */ 
 }
 
 .hero-unit h1 {
@@ -38,6 +69,8 @@ body {
 
 .hero-unit {
     padding: 60px 20px;
+    background-image: inherit;
+    background-color: inherit;
 }
 
 h1, h2, h3 {
@@ -80,9 +113,10 @@ h3 {
 
 #location .when {
     color: white;
-    text-shadow: 0px 0px 3px #9c5503;
-    background-color: #F08204; /* orange */
-    background-color: rgba(240, 130, 4, .75); /* orange 50% opacity */
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #222222;
+    background-image: url('../img/silver.png');
+    background-color: #A6C0C5; /* teal */
     padding: 10px 0;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -126,18 +160,34 @@ dl {
   }
 }
 
+#hotels a {
+    color: #fffff0; /* ivory */
+}
+
 #rsvp a {
     text-decoration: none;
     font-size: 3em;
-    color: #fff; /* white */
-    background-color: #A6C0C5; /* teal */
-    border-radius: 5px;
+    color: #555555;
+    background-image: url('../img/ivory.png');
+    background-color: #fffff0;
+    border: 1px solid #cfcfc0;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
     padding: .5em 1.5em;
+    -webkit-box-shadow: -1px -1px 10px #D9D9CA;
+    -moz-box-shadow: -1px -1px 10px #D9D9CA;
+    box-shadow: inset -1px -1px 10px #D9D9CA;
 }
 
 #contact table tr td {
     text-align: center;
 } 
+
+footer {
+    padding-top: 2em;
+    /* background-color: #333333; /* cafe noir */ 
+}
 
 footer #agile-web {
     text-align: center;
@@ -150,6 +200,14 @@ footer #agile-web .agile-web-logo {
 
 footer #agile-web .agile-web-logo a {
     text-decoration: none;
+}
+
+footer #agile-web a {
+    color: silver; /* #A6C0C5; */
+}
+
+footer #agile-web a:hover {
+    color: #333333; /* #F08204; */
 }
 
 footer #agile-web .copyright {
@@ -173,6 +231,24 @@ footer #agile-web .copyright {
     #rsvp a {
         font-size: 2.4em;
         padding: 0.3em 1em;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    /* ===============
+        single column
+       =============== */
+
+    body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #venue, #travel, #cast, #travel, #hotels, #gifts, #rsvp {
+        padding-top: 2em;
+        padding-bottom: 6em;
     }
 
 }
@@ -250,6 +326,10 @@ footer #agile-web .copyright {
     /* ===============
        Responsive menu 
        =============== */
+    body {
+        padding-top: 40px;
+    }
+
     .hero-unit h1 {
         font-size: 4em;
         line-height: 2em;
