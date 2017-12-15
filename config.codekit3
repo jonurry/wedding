@@ -23,71 +23,12 @@
 		"oAP": "\/docs\/404.html",
 		"oF": 0
 		},
-	"\/apple-touch-icon-114x114-precomposed.png": {
-		"ft": 32768,
-		"iS": 1189,
+	"\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/apple-touch-icon-114x114-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-touch-icon-144x144-precomposed.png": {
-		"ft": 32768,
-		"iS": 1475,
-		"oA": 0,
-		"oAP": "\/docs\/apple-touch-icon-144x144-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-touch-icon-57x57-precomposed.png": {
-		"ft": 32768,
-		"iS": 730,
-		"oA": 0,
-		"oAP": "\/docs\/apple-touch-icon-57x57-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-touch-icon-72x72-precomposed.png": {
-		"ft": 32768,
-		"iS": 854,
-		"oA": 0,
-		"oAP": "\/docs\/apple-touch-icon-72x72-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-touch-icon-precomposed.png": {
-		"ft": 32768,
-		"iS": 730,
-		"oA": 0,
-		"oAP": "\/docs\/apple-touch-icon-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 730,
-		"oA": 0,
-		"oAP": "\/docs\/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"oAP": "\/docs\/browserconfig.xml",
+		"oF": 0
 		},
 	"\/css\/agile-web-icon-font.css": {
 		"aP": 1,
@@ -148,13 +89,6 @@
 		"oAP": "\/docs\/css\/main.css",
 		"oF": 1,
 		"oS": 3
-		},
-	"\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/docs\/favicon.ico",
-		"oF": 0
 		},
 	"\/fonts\/Agile-Web.dev.svg": {
 		"ft": 2097152,
@@ -1796,6 +1730,288 @@
 		"oAP": "\/docs\/img\/dvsup\/readme.txt",
 		"oF": 0
 		},
+	"\/img\/favicons\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 10272,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 12483,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 2453,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 3252,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4781,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 6426,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 7857,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 8312,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 10272,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 10983,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 13601,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3801,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 4003,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4781,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 5024,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 13059,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 13059,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1295,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2181,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 6426,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/img\/favicons\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 10272,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 10942,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 30761,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 4642,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/ms-icon-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/favicons\/Wedding Favicon.png": {
+		"ft": 32768,
+		"iS": 41211,
+		"oA": 0,
+		"oAP": "\/docs\/img\/favicons\/Wedding Favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/fd01_400_400.jpg": {
 		"ft": 16384,
 		"iS": 37362,
@@ -2669,6 +2885,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "\/docs\/manifest.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/original.html": {
 		"cB": 1,
 		"ft": 8192,
@@ -2704,7 +2928,7 @@
 	"displayValue": "wedding",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png",
-	"lastBuiltDate": 535027350
+	"lastBuiltDate": 535047260
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
