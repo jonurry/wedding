@@ -22,7 +22,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.css">
         <!--<link rel="stylesheet" href="socialcount/socialcount-with-icons.min.css" type="text/css">-->
-        <link rel="stylesheet" href="http://fast.fonts.com/cssapi/31eecb9f-a4fc-4a9d-afae-3855deac2440.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
 
         <link rel="stylesheet" href="css/agile-web-icon-font.css" />
@@ -32,19 +32,22 @@
 
         <!-- Google Analytics Tracking Code -->
         <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(["_setAccount", "UA-39272935-1"]);
+_gaq.push(["_setDomainName", "urry.me"]);
+_gaq.push(["_trackPageview"]);
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-39272935-1']);
-          _gaq.push(['_setDomainName', 'urry.me']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
+(function() {
+  var ga = document.createElement("script");
+  ga.type = "text/javascript";
+  ga.async = true;
+  ga.src =
+    ("https:" == document.location.protocol ? "https://ssl" : "http://www") +
+    ".google-analytics.com/ga.js";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(ga, s);
+})();
+</script>
 
     </head>
     <body data-spy="scroll">
@@ -54,341 +57,861 @@
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-        <div id="home" class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#venue">Venue</a></li>
-                            <li><a href="#cast">Cast</a></li>
-                            <li><a href="#travel">Travel</a></li>
-                            <li><a href="#hotels">Hotels</a></li>
-                            <li><a href="#gifts">Gifts</a></li>
-                            <li><a href="#rsvp">RSVP</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
+        <div id="home">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#photos">Photos</a></li>
+                                <li><a href="#fatduck">Fat Duck</a></li>
+                                <li><a href="original.html">Original Site</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div id="hero">
-            <div class="container">
-                <!-- Main hero unit for a primary marketing message or call to action -->
-                <div class="hero-unit">
-                    <h1>Sarah <span class="heart">&hearts;</span> Jonny</h1>
-                    <div class="tandem-container">
-                        <div data-picture data-alt="Sarah Goodhew and Jonny Urry (the bride and groom).">
-                            <!-- 400 744 960 1200      400 800 1200 -->
-                            <div data-src="img/tandem-small.jpg"></div>
-                            <div data-src="img/tandem-medium.jpg"     data-media="(min-width: 400px)"></div>
-                            <div data-src="img/tandem-large.jpg"      data-media="(min-width: 800px)"></div>
-                            <!--[if (lt IE 9) & (!IEMobile)]>
-                                <div data-src="img/tandem-large.jpg"></div>
-                            <![endif]-->
-                            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                            <noscript>
-                                <img class="tandem" src="img/tandem-small.jpg" alt="Sarah Goodhew and Jonny Urry (the bride and groom)." title="Sarah and Jonny (the bride and groom).">
-                            </noscript>
-                        </div>
-                    </div>
-                    <p class="sub-heading">are getting married!</p>
-                </div>
+        <div id="hero-2">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit-2">
+                <h1>Sarah and Jonny got married!</h1>
+                <span data-picture data-alt="Sarah Goodhew and Jonny Urry (the bride and groom).">
+                    <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                    <span data-src="img/01_400_600.jpg"></span>
+                    <span data-src="img/01_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                    <span data-src="img/01_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                    <span data-src="img/01_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                    <span data-src="img/01_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                    <span data-src="img/01_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                    <span data-src="img/01_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                    <span data-src="img/01_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                    <!--[if (lt IE 9) & (!IEMobile)]>
+                        <span data-src="img/01_1602_1068.jpg"></span>
+                    <![endif]-->
+                    <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                    <noscript>
+                        <img src="img/01_400_600.jpg" alt="Sarah Goodhew and Jonny Urry (the bride and groom)." title="Sarah and Jonny (the bride and groom).">
+                    </noscript>
+                </span>
+                <p class="sub-heading">on Saturday, 24th August, 2013</p>
             </div>
         </div> <!-- /container -->
 
-        <div id="venue">
-            <div class="container">
-                <section class="row">
-                    <div class="span12">
-                        <h2>When and Where</h2>
-                        <div class="row">
-                            <div class="map-container">
-                                <div id="map_church" class="span6">
-                                    <p class="static_map">
-                                        <img src="http://maps.googleapis.com/maps/api/staticmap?key=AIzaSyD7W1FxabKSuB_PksuemxSNUH27qYsJ7Pw&markers=St.+Paul's+Church,+Kingston+Hill,+Queen's+Rd,+Kingston+upon+Thames,+Surrey,+KT2+7SF,+United+Kingdom&zoom=16&size=500x500&sensor=false" alt="St. Paul's Church, Kingston Hill, Queen's Rd, Kingston upon Thames, Surrey KT2 7SF"></img>
-                                    </p>
-                                </div>
+        <div id="photos">
+            <section class="row">
+                <div class="photo-portrait">
+                    <span data-picture data-alt="The bride and bridesmaids arrive.">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/02_400_600.jpg"></span>
+                        <span data-src="img/02_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/02_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/02_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/02_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/02_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/02_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/03_400_600.jpg"></span>
+                        <span data-src="img/03_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/03_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/03_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/03_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/03_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/03_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/04_400_600.jpg"></span>
+                        <span data-src="img/04_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/04_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/04_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/04_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/04_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/04_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/04_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/04_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/04_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/05_400_600.jpg"></span>
+                        <span data-src="img/05_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/05_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/05_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/05_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/05_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/05_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/05_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/05_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/05_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/06_400_600.jpg"></span>
+                        <span data-src="img/06_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/06_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/06_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/06_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/06_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/06_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/07_400_600.jpg"></span>
+                        <span data-src="img/07_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/07_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/07_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/07_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/07_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/07_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/08_400_600.jpg"></span>
+                        <span data-src="img/08_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/08_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/08_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/08_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/08_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/08_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/08_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/08_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/08_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/09_400_600.jpg"></span>
+                        <span data-src="img/09_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/09_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/09_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/09_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/09_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/09_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/10_400_600.jpg"></span>
+                        <span data-src="img/10_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/10_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/10_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/10_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/10_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/10_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/11_400_600.jpg"></span>
+                        <span data-src="img/11_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/11_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/11_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/11_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/11_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/11_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/12_400_600.jpg"></span>
+                        <span data-src="img/12_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/12_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/12_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/12_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/12_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/12_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/13_400_600.jpg"></span>
+                        <span data-src="img/13_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/13_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/13_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/13_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/13_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/13_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/13_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/13_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/13_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/14_400_600.jpg"></span>
+                        <span data-src="img/14_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/14_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/14_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/14_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/14_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/14_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/14_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/14_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/14_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/15_400_600.jpg"></span>
+                        <span data-src="img/15_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/15_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/15_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/15_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/15_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/15_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/15_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/15_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/15_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/16_400_600.jpg"></span>
+                        <span data-src="img/16_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/16_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/16_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/16_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/16_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/16_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/16_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/16_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/16_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/17_400_600.jpg"></span>
+                        <span data-src="img/17_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/17_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/17_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/17_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/17_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/17_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/17_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/17_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/17_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/18_400_600.jpg"></span>
+                        <span data-src="img/18_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/18_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/18_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/18_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/18_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/18_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/18_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/18_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/18_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/19_400_600.jpg"></span>
+                        <span data-src="img/19_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/19_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/19_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/19_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/19_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/19_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/20_400_600.jpg"></span>
+                        <span data-src="img/20_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/20_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/20_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/20_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/20_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/20_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/21_400_600.jpg"></span>
+                        <span data-src="img/21_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/21_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/21_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/21_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/21_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/21_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/21_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/21_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/21_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/22_400_600.jpg"></span>
+                        <span data-src="img/22_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/22_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/22_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/22_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/22_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/22_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/22_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/22_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/22_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/23_400_600.jpg"></span>
+                        <span data-src="img/23_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/23_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/23_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/23_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/23_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/23_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/23_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/23_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/23_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/24_400_600.jpg"></span>
+                        <span data-src="img/24_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/24_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/24_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/24_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/24_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/24_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/25_400_600.jpg"></span>
+                        <span data-src="img/25_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/25_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/25_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/25_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/25_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/25_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/26_400_600.jpg"></span>
+                        <span data-src="img/26_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/26_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/26_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/26_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/26_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/26_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/27_400_600.jpg"></span>
+                        <span data-src="img/27_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/27_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/27_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/27_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/27_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/27_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/28_400_600.jpg"></span>
+                        <span data-src="img/28_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/28_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/28_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/28_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/28_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/28_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/28_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/28_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/28_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/29_400_600.jpg"></span>
+                        <span data-src="img/29_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/29_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/29_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/29_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/29_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/29_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/29_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/29_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/29_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/30_400_600.jpg"></span>
+                        <span data-src="img/30_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/30_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/30_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/30_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/30_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/30_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/30_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/30_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/30_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/31_400_600.jpg"></span>
+                        <span data-src="img/31_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/31_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/31_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/31_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/31_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/31_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-portrait">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200      400 800 1200 -->
+                        <span data-src="img/32_400_600.jpg"></span>
+                        <span data-src="img/32_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/32_800_1200.jpg"   data-media="(min-width: 401px)"></span>
+                        <span data-src="img/32_1200_1800.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/32_1200_1800.jpg"  data-media="(min-width: 800px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/32_1200_1800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/32_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-landscape">
+                    <span data-picture data-alt="">
+                        <!-- 400 800 1200 1600 2400     400 800 1200 -->
+                        <span data-src="img/33_400_600.jpg"></span>
+                        <span data-src="img/33_800_1200.jpg"   data-media="(min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/33_801_534.jpg"    data-media="(min-width: 401px)"></span>
+                        <span data-src="img/33_1602_1068.jpg"  data-media="(min-width: 401px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/33_1200_800.jpg"   data-media="(min-width: 800px)"></span>
+                        <span data-src="img/33_2400_1600.jpg"  data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>
+                        <span data-src="img/33_1602_1068.jpg"  data-media="(min-width: 1200px)"></span>
+                        <span data-src="img/33_2400_1600.jpg"  data-media="(min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/33_1602_1068.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/33_400_600.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div id="allphotos">
+                    <div class="container">
+                        <section>
+                            <h2>All Photos</h2>
+                            <p>To see the full set of wedding photos please click on the button below:</p>
+                            </br>
+                            </br>
+                            <p class="text-center"><a class="all-photos-button" href="http://flickr.com/gp/jonurry/P5333D">Wedding Photos</a></p>
+                            </br>
+                            </br>
+                            <div>
+                                <p class="text-center">All wedding photos &copy;2013 <a href="http://www.anniearmitage.com/">Annie Armitage Photography</a>. All rigths reserved.</p>
                             </div>
-                            <div id="location" class="span6 text-center">
-                                <p class="when lead"><strong><time datetime="2013-08-24T11:00+00:00">Saturday, 24<sup>th</sup> August 2013 at 11am</time></strong></p>
-                                <address>
-                                    <strong>St. Paul's Church, Kingston Hill</strong><br>
-                                    Queen's Rd, Kingston upon Thames<br>
-                                    Surrey, KT2 7SF<br>
-                                </address>
-                                <p class="lead">The reception and evening party are also at the church.</p>
-                                <time datetime="2013-08-24T13:00+00:00"><strong>Reception:</strong> 1pm to 6pm</time></br>
-                                <time datetime="2013-08-24T18:00+00:00"><strong>Evening:</strong> 6pm to 10pm</time>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div> <!-- /container -->
+                            </br>
+                            </br>
+                        </section>
+                    </div> <!-- /container -->
+                </div>
+            </section>
         </div>
 
-        <div id="cast">
-            <div class="container">
-                <section class="row">
-                    <div class="span12">
-                        <h2>The Cast</h2>
-                        <div class="row">
-                            <div class="person span6">
-                                <h3>The Bride</h3>
-                                <div class="portrait-container">
-                                    <div data-picture data-alt="Sarah Goodhew (the bride).">
-                                        <div data-src="img/sarah.jpg"></div>
-                                        <div data-src="img/sarah_x2.jpg"    data-media="(min-device-pixel-ratio: 2.0)"></div>
-                                        <!--[if (lt IE 9) & (!IEMobile)]>
-                                            <div data-src="img/sarah.jpg"></div>
-                                        <![endif]-->
-                                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                                        <noscript>
-                                            <img class="portrait img-rounded" src="img/sarah.jpg" alt="Sarah Goodhew (the bride)." title="Sarah (the bride).">
-                                        </noscript>
-                                    </div>
-                                </div>
-                                <h4>Sarah</h4>
-                                <p>Career girl Sarah is the ultimate multi-tasking working mum juggling a busy job and children whilst at the same time being a school governor and Sunday school leader.  When she does manage to grab a few minutes of spare time her favourite activities are gardening, knitting, baking (Mary Berry’s traybakes are simply the best!) and relaxing with a lovely cup of Earl Grey.  Every now and again you can also find her trying out a new local restaurant and catching up on all the latest news with the girls.</p>
-                            </div>
-                            <div class="person span6">
-                                <h3>The Groom</h3>
-                                <div class="portrait-container">
-                                    <div data-picture data-alt="Jonny Urry (the groom).">
-                                        <div data-src="img/jon.jpg"></div>
-                                        <div data-src="img/jon_x2.jpg"    data-media="(min-device-pixel-ratio: 2.0)"></div>
-                                        <!--[if (lt IE 9) & (!IEMobile)]>
-                                            <div data-src="img/jon.jpg"></div>
-                                        <![endif]-->
-                                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                                        <noscript>
-                                            <img class="portrait img-rounded" src="img/jon.jpg" alt="Jonny Urry (the groom)." title="Jonny (the groom).">
-                                        </noscript>
-                                    </div>
-                                </div>
-                                <h4>Jonny</h4>
-                                <p>Suave and debonair; Jonny is a man for all seasons. Highly intelligent with impeccable taste and appreciative of fine craft. A lover of exquisite beers from around the world. He's a keen cycling fan who can talk all day long about the classics and grand tours. A coffee aficionado and wannabe barista (just don't get him started on burnt milk in shop bought latte). This music maestro is always searching for new bands to listen too, preferably on vinyl. Oh, and he's a really nice (and modest) fella to boot.</p>
-                            </div>
-                        </div>
-                        <div class="hidden-phone"></br></div> <!-- Separator -->
-                        <div class="hidden-phone"></br></div> <!-- Separator -->
-                        <div class="row">
-                            <div class="person span6">
-                                <h3>Bridesmaid N<sup>o</sup> 1</h3>
-                                <div class="portrait-container">
-                                    <div data-picture data-alt="Vivien Urry (a bridesmaid).">
-                                        <div data-src="img/vivien.jpg"></div>
-                                        <div data-src="img/vivien_x2.jpg"    data-media="(min-device-pixel-ratio: 2.0)"></div>
-                                        <!--[if (lt IE 9) & (!IEMobile)]>
-                                            <div data-src="img/vivien.jpg"></div>
-                                        <![endif]-->
-                                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                                        <noscript>
-                                            <img class="portrait img-rounded" src="img/vivien.jpg" alt="Vivien Urry (a bridesmaid)." title="Vivien (a bridesmaid).">
-                                        </noscript>
-                                    </div>
-                                </div>
-                                <h4>Vivien</h4>
-                                <p>Wonderful big sister Vivien is really looking forward to being mummy’s chief bridesmaid.  Inclined to the creative side of life, schoolgirl Vivien enjoys Art & Craft and Papermoose textiles club as well as French and chess.  Her creative talents extend to the modern as well as traditional media and she has been known to put together some pretty mean Powerpoint presentations.  Her favourite time of the week though is Saturday morning swimming with mummy, jumping in the deep end together.</p>
-                            </div>
-                            <div class="person span6">
-                                <h3>Bridesmaid N<sup>o</sup> 2</h3>
-                                <div class="portrait-container">
-                                    <div data-picture data-alt="Daphne Urry (a bridesmaid).">
-                                        <div data-src="img/daphne.jpg"></div>
-                                        <div data-src="img/daphne_x2.jpg"    data-media="(min-device-pixel-ratio: 2.0)"></div>
-                                        <!--[if (lt IE 9) & (!IEMobile)]>
-                                            <div data-src="img/daphne.jpg"></div>
-                                        <![endif]-->
-                                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                                        <noscript>
-                                            <img class="portrait img-rounded" src="img/daphne.jpg" alt="Daphne Urry (a bridesmaid)." title="Daphne (a bridesmaid).">
-                                        </noscript>
-                                    </div>
-                                </div>
-                                <h4>Daphne</h4>
-                                <p>Livewire Daphne is the sporty member of the family and is often to be found speeding around Kingston on her scooter with mummy or daddy anxiously in pursuit.  She is the ultimate girly girl, refusing to wear anything but dresses or skirts, preferably in pink and purple.  Daphne’s favourite activity is playing with her friend Greta.</p>
-                            </div>
-                        </div>
-                        <div class="hidden-phone"></br></div> <!-- Separator -->
-                        <div class="hidden-phone"></br></div> <!-- Separator -->
-                        <div class="row">
-                            <div class="person span6 offset3">
-                                <h3>The Best Man</h3>
-                                <div class="portrait-container">
-                                    <div data-picture data-alt="Mark Dowman (the best man).">
-                                        <div data-src="img/mark.jpg"></div>
-                                        <div data-src="img/mark_x2.jpg"    data-media="(min-device-pixel-ratio: 2.0)"></div>
-                                        <!--[if (lt IE 9) & (!IEMobile)]>
-                                            <div data-src="img/mark.jpg"></div>
-                                        <![endif]-->
-                                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                                        <noscript>
-                                            <img class="portrait img-rounded" src="img/mark.jpg" alt="Mark Dowman (the best man)." title="Mark (the best man).">
-                                        </noscript>
-                                    </div>
-                                </div>
-                                <h4>Mark</h4>
-                                <p>Jonny and Mark have been great friends since nursery school. Their shared interests of cycling, beer and music have kept these homeboys tight. They have spent many an evening contemplating life on a park bench with the aid of strong cider or the occasional mix of white wine and Scottish whisky. Mark is a connoisseur of fine music and can often be found spinning his vast collection of vinyl discs on indie-pop Friday at Dowman acres. With a hankering for the gee-gees and a fully paid subscription to <a href="http://thechapmagazine.co.uk/">The Chap</a> magazine, he truly is a gentleman and a scholar.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div> <!-- /container -->
-        </div>
-
-        <div id="travel">
-            <div class="container">
-                <section class="row">
-                    <div class="span12">
-                        <h2>Getting There</h2>
-                        <div class="row">
-                            <div class="span6">
-                                <!-- Google Map Here -->
-                                <h3>Car</h3>
-                                <p>Kingston is very busy with shoppers on Saturday mornings and you should allow plenty of time to get to the church especially if you are approaching from the West along the A308.</p>
-                                <p>There are a limited amount of metered parking spaces in the roads around the church. These are regularly patrolled by overzealous traffic wardens who love to issue parking tickets. We will have a limited number of parking permits on the day but your best bet is to park inside Richmond Park and walk to the church from there. It's only a 5 minute walk away and the parking is free. Be aware that the park gates will be locked from dusk if you are staying for the evening party. You would therefore need to move your car after 6:30pm (when the parking wardens knock off for the day) to a nearby road. Car sharing would be a good idea if possible.</p>
-                            </div>
-                            <div class="span6">
-                                <h3>Train</h3>
-                                <p>The nearest railway station is Norbiton and is located in zone 5 (for those of you with Oyster cards). The church is only a 10 minute walk away. This is a pretty good option if it works for you.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div> <!-- /container -->
-        </div>
-
-        <div id="hotels">
+        <div id="fatduck">
             <div class="container">
                 <section>
-                    <h2>Staying Over</h2>
-                    <p>The best bet here is to search for suitable options on <a href="http://www.trivago.co.uk/">Trivago.co.uk</a>, <a href="http://www.expedia.co.uk/Hotels">Expedia.co.uk</a>, <a href="http://www.hotels.com/">Hotels.com</a>, <a href="http://www.laterooms.com/">LateRooms.com</a>, <a href="http://www.lastminute.com/site/travel/hotels/">LastMinute.com</a> or <a href="http://www.booking.com/">Bookings.com</a>. You can take a look at <a href="http://www.tripadvisor.co.uk/Hotels">TripAdvisor.co.uk</a> for reviews of where to stay.</p>
-                    The groom's party will be staying at the <a href="http://www.richmondhill-hotel.co.uk/">Richmond Hill Hotel</a> on Friday 23<sup>rd</sup> August and will be joined by the bride on Saturday 24<sup>th</sup> August.</P> 
-                    <!-- trip advisor ratings links etc... -->
+                    <h2>The Fat Duck</h2>
+                    <p>A big thank you to everyone who chipped in for us to visit Heston Blumenthal's restaurant, The Fat Duck. We had a wonderful time and got to sample some exceptional food and wine.</p>
+                    </br>
+                    </br>
                 </section>
             </div> <!-- /container -->
-        </div>
-
-        <div id="gifts">
+            <section class="row">
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd01_400_400.jpg"></span>
+                        <span data-src="img/fd01_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd01_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd01_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd02_400_400.jpg"></span>
+                        <span data-src="img/fd02_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd02_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd02_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd03_400_400.jpg"></span>
+                        <span data-src="img/fd03_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd03_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd03_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd04_400_400.jpg"></span>
+                        <span data-src="img/fd04_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd04_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd04_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd05_400_400.jpg"></span>
+                        <span data-src="img/fd05_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd05_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd05_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd06_400_400.jpg"></span>
+                        <span data-src="img/fd06_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd06_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd06_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd07_400_400.jpg"></span>
+                        <span data-src="img/fd07_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd07_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd07_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd08_400_400.jpg"></span>
+                        <span data-src="img/fd08_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd08_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd08_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd09_400_400.jpg"></span>
+                        <span data-src="img/fd09_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd09_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd09_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd10_400_400.jpg"></span>
+                        <span data-src="img/fd10_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd10_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd10_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd11_400_400.jpg"></span>
+                        <span data-src="img/fd11_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd11_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd11_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+                <div class="photo-fatduck">
+                    <span data-picture data-alt="">
+                        <!-- 400 800      400 800 -->
+                        <span data-src="img/fd12_400_400.jpg"></span>
+                        <span data-src="img/fd12_800_800.jpg"   data-media="(min-device-pixel-ratio: 2.0), (min-width: 1600px)"></span>
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span data-src="img/fd12_800_800.jpg"></span>
+                        <![endif]-->
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript>
+                            <img src="img/fd12_400_400.jpg" alt="" title="">
+                        </noscript>
+                    </span>
+                </div>
+            </section>
             <div class="container">
                 <section>
-                    <h2>Wedding Gifts</h2>
-                    <p>Don't feel that you need to get us anything. We don't really need lots of stuff because we're not setting up a new home or anything like that. If you turn up and have a good time and take away some memories then that's enough for us.</p>
-                    <div class="hidden-phone"></br></div> <!-- Separator -->
-                    <div class="row">
-                        <div class="person span6">
-                            <h3>Personal</h3>
-                            <p>If you would still like to get us a gift and would like to contribute to something that we'd make great use of then a small monetary gift would be much appreciated. It would help us to purchase the following:
-                            <dl class="dl-horizontal">
-                                <dt>The Fat Duck</dt>
-                                <dd>We'd like to pay a visit to Heston Blumenthal's restaurant (<a href="http://www.thefatduck.co.uk/">The Fat Duck</a>) in Bray during the week after the wedding. If you would like to contribute to a gift voucher that would be great.</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt>Coffee Machine</dt>
-                                <dd>At least one of us is a coffee fiend and we're saving up for a fantastic <a href="http://www.home-barista.com/reviews/rancilio-silvia-review-t25001.html">espresso machine</a> (with <a href="http://www.auberins.com/index.php?main_page=product_info&cPath=6&products_id=104">PID</a>), <a href="http://www.mahlkoenig.com/en_products/VARIO-home.html/?setLanguage=en_EN">an electronic grinder</a>, and a knock box and tamper. If you'd like to help us enjoy superb coffee every day then you can contribute to the caffeine addiction fund.</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt>Personal Gift</dt>
-                                <dd>If you'd like to make your own mark on something personal then knock yourself out and surprise us!</dd>
-                            </dl>
-                        </div>
-                        <div class="person span6">
-                            <h3>Charity</h3>
-                            <p>If all of that sounds frivolous then a contribution to one of the following charities would be a lovely gesture:</p>
-                            <dl class="dl-horizontal">
-                                <dt>Leukaemia and</br>Lymphoma</br>Research</dt>
-                                <dd>Sarah’s mum Rose died of leukaemia in 1998 and Sarah has been a keen supporter of <a href="http://www.leukaemialymphomaresearch.org.uk">Leukaemia and Lymphoma Research</a> ever since, including running, jogging and eventually just walking in 7 Race for Life’s (it’s an age thing).</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt>Tearfund</dt>
-                                <dd><a href="http://www.tearfund.org">Tearfund</a> is a Christian charity working through local church partners and disaster response teams in more than 50 countries around the world. They work particularly in Africa, Asia and South America – and also across Eastern Europe and The UK.</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt>NSPCC</dt>
-                                <dd>The <a href="http://www.nspcc.org.uk">NSPCC</a>’s vision is to end cruelty to children in the UK. They campaign to change the law, provide ChildLine and the NSPCC helpline service, offer advice for adults and much more.</dd>
-                            </dl>
-                        </div>
-                    </div>
-                    </br>
-                    <p>The easiest way to donate is on-line via the charity’s website and even better if you are able to GiftAid the donation as the charity will receive more without it costing a penny extra.</p>
-                </section>
-            </div> <!-- /container -->
-        </div>
-
-        <div id="rsvp">
-            <div class="container">
-                <section>
-                    <h2>RSVP</h2>
-                    <p>We would appreciate if you could confirm your attendance as soon as you can and if possible by the end of May. We do plan to have some activities running during the afternoon for younger children and there will be a children’s lunchtime meal as an alternative to the wedding buffet.</p>
-                    <p>To RSVP, please click on the button below and fill in our form. By doing so, you'll be added to our mailing list so that we can keep you up to date:<p>
                     </br>
                     </br>
-                    <p class="text-center"><a href="http://eepurl.com/xtQG1">RSVP</a></p>
-                </section>
-            </div> <!-- /container -->
-        </div>
-
-        <!--
-        <div id="social">
-            <div class="container">
-                <section id="socialcount">
-                    <h2>Share the love</h2>
-                    <ul class="socialcount" data-url="http://wedding.urry.me/" data-share-text="I'm going to Jonny and Sarah's wedding!">
-                        <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://wedding.urry.me/" title="Share on Facebook"><span class="social-icon icon-facebook"></span><span class="count">Like</span></a></li>
-                        <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://wedding.urry.me/" title="Share on Twitter"><span class="social-icon icon-twitter"></span><span class="count">Tweet</span></a></li>
-                        <li class="googleplus"><a href="https://plus.google.com/share?url=http://wedding.urry.me/" title="Share on Google Plus"><span class="social-icon icon-googleplus"></span><span class="count">+1</span></a></li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-        -->
-
-        <div id="contact">
-            <div class="container">
-                <section id="contact">
-                    <h2>Contact Info</h2>
-                    <p>If you need to chat about anything or ask us any questions then you can get hold of us here:</p>
-                    <table class="table table-striped">
-                        <tbody>
-                            <tr>
-                                <td><i class="icon-home"></i></td>
-                                <td class="hidden-phone">telephone</td>
-                                <td>Home</td>
-                                <td><a href="tel:44-208-408-0452">+44 (0)208 408 0452</a></td>
-                            </tr>
-                            <tr>
-                                <td><i class="icon-signal"></i></td>
-                                <td class="hidden-phone">mobile</td>
-                                <td>Sarah</td>
-                                <td><a href="tel:44-7713-175-537">+44 (0)7713 175 537</a></td>
-                            </tr>
-                            <tr>
-                                <td><i class="icon-signal"></i></td>
-                                <td class="hidden-phone">mobile</td>
-                                <td>Jonny</td>
-                                <td><a href="tel:44-7986-371-299">+44 (0)7986 371 299</a></td>
-                            </tr>
-                            <tr>
-                                <td><i class="icon-envelope"></i></td>
-                                <td class="hidden-phone">e-mail</td>
-                                <td>Sarah</td>
-                                <td><a href="mailto:wedding@goodhew.me?subject=Wedding RSVP">wedding@goodhew.me</a></td>
-                            </tr>
-                            <tr>
-                                <td><i class="icon-envelope"></i></td>
-                                <td class="hidden-phone">e-mail</td>
-                                <td>Jonny</td>
-                                <td><a href="mailto:wedding@urry.me?subject=Wedding RSVP">wedding@urry.me</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <p class="text-center">To see the full set of photos please click on the button below:</p>
+                    </br>
+                    </br>
+                    </br>
+                    <p class="text-center"><a class="all-photos-button" href="http://flickr.com/gp/jonurry/10dc63/">Fat Duck Photos</a></p>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
                 </section>
             </div> <!-- /container -->
         </div>
@@ -406,7 +929,11 @@
             </div>
         </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script
+          src="https://code.jquery.com/jquery-1.9.1.min.js"
+          integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+          crossorigin="anonymous">
+        </script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
@@ -414,52 +941,26 @@
         <script src="js/vendor/picturefill/picturefill.js"></script>
 
         <script type="text/javascript" src="js/vendor/smoothscroll/smoothscroll.js"></script>
-        <!--<script type="text/javascript" src="js/vendor/socialcount/socialcount.min.js"></script>-->
-
-        <script type="text/javascript"
-            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD7W1FxabKSuB_PksuemxSNUH27qYsJ7Pw&sensor=false">
-        </script>
 
         <!-- Page Initialisation and Google Maps Code -->
         <script type="text/javascript">
-
-            $('#navbar').scrollspy();
-
-            $(".static_map").remove();
-
-            var myLatlng = new google.maps.LatLng(51.417817, -0.285290);
-            var mapOptions = {
-                zoom: 16,
-                center: myLatlng,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                scrollwheel: false
-            }
-            var map = new google.maps.Map(document.getElementById("map_church"), mapOptions);
-
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                map: map,
-                title:"St. Paul's Church"
-            });
-
-            google.maps.event.addDomListener(map, "idle", function(){
-                center = map.getCenter();
-            });
-
-            $(window).resize(function(){
-                //$(".fitText").fitText();
-                map.setCenter(center);
-            });
-
-        </script>
+        $("#navbar").scrollspy();
+</script>
 
         <!-- Crazy Egg Analytics Tracking Code -->
-        <script type="text/javascript">
-            setTimeout(function(){var a=document.createElement("script");
-            var b=document.getElementsByTagName("script")[0];
-            a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0015/0285.js?"+Math.floor(new Date().getTime()/3600000);
-            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-        </script>
+        <!-- <script type="text/javascript">
+          setTimeout(function() {
+  var a = document.createElement("script");
+  var b = document.getElementsByTagName("script")[0];
+  a.src =
+    document.location.protocol +
+    "//dnn506yrbagrg.cloudfront.net/pages/scripts/0015/0285.js?" +
+    Math.floor(new Date().getTime() / 3600000);
+  a.async = true;
+  a.type = "text/javascript";
+  b.parentNode.insertBefore(a, b);
+}, 1);
+</script> -->
 
     </body>
 </html>
