@@ -90,6 +90,12 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
+		},
 	"\/fonts\/Agile-Web.dev.svg": {
 		"ft": 2097152,
 		"miP": 0,
