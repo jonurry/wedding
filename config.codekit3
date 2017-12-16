@@ -1738,7 +1738,7 @@
 		},
 	"\/img\/favicons\/android-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 14452,
+		"iS": 14326,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-icon-144x144.png",
 		"oF": 0,
@@ -1749,7 +1749,7 @@
 		},
 	"\/img\/favicons\/android-icon-192x192.png": {
 		"ft": 32768,
-		"iS": 17713,
+		"iS": 16935,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-icon-192x192.png",
 		"oF": 0,
@@ -1760,7 +1760,7 @@
 		},
 	"\/img\/favicons\/android-icon-36x36.png": {
 		"ft": 32768,
-		"iS": 3191,
+		"iS": 3011,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-icon-36x36.png",
 		"oF": 0,
@@ -1771,7 +1771,7 @@
 		},
 	"\/img\/favicons\/android-icon-48x48.png": {
 		"ft": 32768,
-		"iS": 4400,
+		"iS": 4164,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-icon-48x48.png",
 		"oF": 0,
@@ -1782,7 +1782,7 @@
 		},
 	"\/img\/favicons\/android-icon-72x72.png": {
 		"ft": 32768,
-		"iS": 6648,
+		"iS": 6445,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-icon-72x72.png",
 		"oF": 0,
@@ -1793,7 +1793,7 @@
 		},
 	"\/img\/favicons\/android-icon-96x96.png": {
 		"ft": 32768,
-		"iS": 9141,
+		"iS": 8678,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-icon-96x96.png",
 		"oF": 0,
@@ -1804,7 +1804,7 @@
 		},
 	"\/img\/favicons\/apple-icon-114x114.png": {
 		"ft": 32768,
-		"iS": 11178,
+		"iS": 10994,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-114x114.png",
 		"oF": 0,
@@ -1815,7 +1815,7 @@
 		},
 	"\/img\/favicons\/apple-icon-120x120.png": {
 		"ft": 32768,
-		"iS": 11797,
+		"iS": 11551,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-120x120.png",
 		"oF": 0,
@@ -1826,7 +1826,7 @@
 		},
 	"\/img\/favicons\/apple-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 14452,
+		"iS": 14326,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-144x144.png",
 		"oF": 0,
@@ -1837,7 +1837,7 @@
 		},
 	"\/img\/favicons\/apple-icon-152x152.png": {
 		"ft": 32768,
-		"iS": 15609,
+		"iS": 15112,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-152x152.png",
 		"oF": 0,
@@ -1848,7 +1848,7 @@
 		},
 	"\/img\/favicons\/apple-icon-180x180.png": {
 		"ft": 32768,
-		"iS": 19511,
+		"iS": 18645,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-180x180.png",
 		"oF": 0,
@@ -1859,7 +1859,7 @@
 		},
 	"\/img\/favicons\/apple-icon-57x57.png": {
 		"ft": 32768,
-		"iS": 5273,
+		"iS": 5007,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-57x57.png",
 		"oF": 0,
@@ -1870,7 +1870,7 @@
 		},
 	"\/img\/favicons\/apple-icon-60x60.png": {
 		"ft": 32768,
-		"iS": 5516,
+		"iS": 5208,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-60x60.png",
 		"oF": 0,
@@ -1881,7 +1881,7 @@
 		},
 	"\/img\/favicons\/apple-icon-72x72.png": {
 		"ft": 32768,
-		"iS": 6648,
+		"iS": 6445,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-72x72.png",
 		"oF": 0,
@@ -1892,7 +1892,7 @@
 		},
 	"\/img\/favicons\/apple-icon-76x76.png": {
 		"ft": 32768,
-		"iS": 6956,
+		"iS": 6631,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-76x76.png",
 		"oF": 0,
@@ -1903,7 +1903,7 @@
 		},
 	"\/img\/favicons\/apple-icon-precomposed.png": {
 		"ft": 32768,
-		"iS": 18289,
+		"iS": 17511,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon-precomposed.png",
 		"oF": 0,
@@ -1914,7 +1914,7 @@
 		},
 	"\/img\/favicons\/apple-icon.png": {
 		"ft": 32768,
-		"iS": 18289,
+		"iS": 17511,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-icon.png",
 		"oF": 0,
@@ -1925,7 +1925,7 @@
 		},
 	"\/img\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 1497,
+		"iS": 1356,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/favicon-16x16.png",
 		"oF": 0,
@@ -1936,7 +1936,7 @@
 		},
 	"\/img\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 2814,
+		"iS": 2637,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/favicon-32x32.png",
 		"oF": 0,
@@ -1947,7 +1947,7 @@
 		},
 	"\/img\/favicons\/favicon-96x96.png": {
 		"ft": 32768,
-		"iS": 9141,
+		"iS": 8678,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/favicon-96x96.png",
 		"oF": 0,
@@ -1956,16 +1956,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/favicon.ico",
-		"oF": 0
-		},
 	"\/img\/favicons\/ms-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 14452,
+		"iS": 14326,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/ms-icon-144x144.png",
 		"oF": 0,
@@ -1976,7 +1969,7 @@
 		},
 	"\/img\/favicons\/ms-icon-150x150.png": {
 		"ft": 32768,
-		"iS": 15357,
+		"iS": 14954,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/ms-icon-150x150.png",
 		"oF": 0,
@@ -1987,7 +1980,7 @@
 		},
 	"\/img\/favicons\/ms-icon-310x310.png": {
 		"ft": 32768,
-		"iS": 45448,
+		"iS": 43055,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/ms-icon-310x310.png",
 		"oF": 0,
@@ -1998,7 +1991,7 @@
 		},
 	"\/img\/favicons\/ms-icon-70x70.png": {
 		"ft": 32768,
-		"iS": 6481,
+		"iS": 6090,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/ms-icon-70x70.png",
 		"oF": 0,
